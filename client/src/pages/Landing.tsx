@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { ArrowRight, PieChart, Sparkles, ShieldCheck } from "lucide-react";
-import heroImg from "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2V8ZW58MHx8MHx8fDA%3D";
+
+const heroImg = "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2V8ZW58MHx8MHx8fDA%3D";
 
 // Stock image note: Finance/Money abstract concept
 

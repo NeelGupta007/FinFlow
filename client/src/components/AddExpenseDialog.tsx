@@ -45,7 +45,7 @@ export function AddExpenseDialog({ children }: AddExpenseDialogProps) {
         amount: Math.round(parseFloat(amount) * 100), // Convert to cents
         category,
         description,
-        date: new Date(date).toISOString(), // Use ISO string for API
+        date: new Date(date), // Use Date object for API
         source: activeTab === "ai" ? "ai_parsed" : "manual",
       });
       setOpen(false);
